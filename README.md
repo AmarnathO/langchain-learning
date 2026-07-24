@@ -197,3 +197,16 @@ from langchain_core.messages import (HumanMessage,SystemMessage,AIMessage,ToolMe
 | `ainvoke()` | Async single execution  |
 | `abatch()`  | Async batch execution   |
 | `astream()` | Async streaming         |
+
+
+**LangChain debug mode**
+
+```python
+    from langchain_core.globals import set_debug
+
+    # Enable langChain debug mode
+    set_debug(True)
+
+    # Disable langChain debug mode
+    set_debug(False)
+```
