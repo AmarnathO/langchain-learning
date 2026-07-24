@@ -62,7 +62,7 @@
 
 
 **Types of Prompt Templates**
-**PromptTemplate** : Used for text-based prompts.
+**PromptTemplate** : Used for Simple one way application.
 Example  - Summarize the following text:{text}
 
 **ChatPromptTemplate** : Used for chat models.
