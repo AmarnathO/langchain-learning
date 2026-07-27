@@ -16,3 +16,9 @@ dependencies = [
 members = [
     "ai-chat-playground",
 ]
+
+[tool.pyright]
+extraPaths = [
+    "Prompt Template/city_cuisine_planner"
+]
+

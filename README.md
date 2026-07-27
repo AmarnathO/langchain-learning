@@ -210,3 +210,11 @@ from langchain_core.messages import (HumanMessage,SystemMessage,AIMessage,ToolMe
     # Disable langChain debug mode
     set_debug(False)
 ```
+
+**Before Chain**
+- user give input and that input is given to llm in a defined template format 
+- Why we need 
+    -  Helps in specifying the sequence and control of action
+    - input procesisng and output processing 
+    - make core modular and esay managable 
+    - easy to add chat history
