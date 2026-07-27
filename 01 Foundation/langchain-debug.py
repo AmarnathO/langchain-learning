@@ -1,4 +1,4 @@
-
+# this is to enable debug mode of langchain to see all detals of langchain.
 from langchain.chat_models import init_chat_model
 from dotenv import load_dotenv
 from langchain_core.globals import set_debug
